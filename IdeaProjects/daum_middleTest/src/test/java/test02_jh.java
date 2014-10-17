@@ -1,3 +1,5 @@
+import org.junit.Test;
+
 import static org.hamcrest.CoreMatchers.is;
         import static org.hamcrest.MatcherAssert.assertThat;
 
@@ -6,6 +8,7 @@ import static org.hamcrest.CoreMatchers.is;
  */
 public class test02_jh {
 
+    @Test
     public void multest02() {
         int a = 3;
         int b = 3;
