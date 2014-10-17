@@ -1,3 +1,5 @@
+import org.junit.Test;
+
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
@@ -6,6 +8,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
  */
 public class test01_jh {
 
+    @Test
     public void addTest01(){
         int a = 7;
         int b = 8;
